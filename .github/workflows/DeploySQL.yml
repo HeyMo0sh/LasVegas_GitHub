@@ -22,7 +22,7 @@ jobs:
   # Job to build and publish the dacpac
   BuildDacpac:
     # I use a GitHub-Hosted runner here, you can opt to use a self-hosted one instead
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
