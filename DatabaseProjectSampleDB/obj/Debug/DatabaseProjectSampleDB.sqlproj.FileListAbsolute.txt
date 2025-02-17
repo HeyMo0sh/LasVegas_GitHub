@@ -1,0 +1,10 @@
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\bin\Debug\DatabaseProjectSampleDB.dacpac
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\bin\Debug\DatabaseProjectSampleDB.dll
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\bin\Debug\DatabaseProjectSampleDB.pdb
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\obj\Debug\DatabaseProjectSampleDB.sqlproj.AssemblyReference.cache
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\obj\Debug\Model.xml
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\obj\Debug\refactor.xml
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\obj\Debug\postdeploy.sql
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\obj\Debug\predeploy.sql
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\obj\Debug\DatabaseProjectSampleDB.dll
+c:\SourceControl\LasVegas_Workshop_Prep\DatabaseProjectSampleDB\obj\Debug\DatabaseProjectSampleDB.pdb

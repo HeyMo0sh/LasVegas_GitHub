@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Temp\\Demo_GIT\\ADS_GIT\\DatabaseProjectAdventureWorksLT2022\\DatabaseProjectAdventureWorksLT2022.sqlproj": {}
+  },
+  "projects": {
+    "c:\\Temp\\Demo_GIT\\ADS_GIT\\DatabaseProjectAdventureWorksLT2022\\DatabaseProjectAdventureWorksLT2022.sqlproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Temp\\Demo_GIT\\ADS_GIT\\DatabaseProjectAdventureWorksLT2022\\DatabaseProjectAdventureWorksLT2022.sqlproj",
+        "projectName": "DatabaseProjectAdventureWorksLT2022",
+        "projectPath": "c:\\Temp\\Demo_GIT\\ADS_GIT\\DatabaseProjectAdventureWorksLT2022\\DatabaseProjectAdventureWorksLT2022.sqlproj",
+        "packagesPath": "C:\\Users\\hhast\\.nuget\\packages\\",
+        "outputPath": "c:\\Temp\\Demo_GIT\\ADS_GIT\\DatabaseProjectAdventureWorksLT2022\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hhast\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU5128"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
