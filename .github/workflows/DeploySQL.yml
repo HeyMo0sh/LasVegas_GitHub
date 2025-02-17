@@ -1,0 +1,43 @@
+name: Build a SQL Database Project
+
+# Sets the trigger to be triggered when pushed to main
+on:
+  push:
+    branches:
+      - main
+
+# Alternatively, can set the trigger to update when pull request is done to the main branch
+# on:
+#   pull_request:
+#     branches: 
+#       - main
+      
+# Specify variables
+env:
+  ARTIFACT: SQLDB
+  
+
+jobs:
+
+  # Job to build and publish the dacpac
+  BuildDacpac:
+    # I use a GitHub-Hosted runner here, you can opt to use a self-hosted one instead
+    runs-on: ubuntu-latest
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4.2.2
+      
+      # Build dacpac using dotnet build
+      - name: Build Database project
+        run: |
+          dotnet build DatabaseProjectSampleDB/DatabaseProjectSampleDB.sqlproj
+          
+      # Publish artifact
+      - uses: actions/upload-artifact@v4.5.0
+        with:
+          name: ${{env.ARTIFACT}}
+          path: ${{ github.workspace }}/DatabaseProjectSampleDB/bin/Debug/ 
+
